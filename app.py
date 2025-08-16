@@ -40,7 +40,7 @@ st.write(f"✅ Model trained with Test Accuracy: **{accuracy:.2f}**")
 
 st.write("### Enter flower measurements:")
 
-# User inputs
+# User inputs (sliders)
 sepal_length = st.slider("Sepal Length (cm)", 4.0, 8.0, 5.1)
 sepal_width  = st.slider("Sepal Width (cm)", 2.0, 5.0, 3.5)
 petal_length = st.slider("Petal Length (cm)", 1.0, 7.0, 1.4)
